@@ -1,10 +1,10 @@
-// src/components/HomePage/HomePage.jsx
 
-import React, { useState } from "react";
+
+import  { useState } from "react";
 import { Link } from "react-router-dom";
-import SearchBar from "../SearchBar/SearchBar"; // Ensure the correct path
-import Itinerary from "../Itinerary/Itinerary"; // Ensure the correct path
-import { fetchDestinations } from "../Service/apiService"; // Importing the API service
+import SearchBar from "../SearchBar/SearchBar"; 
+import Itinerary from "../Itinerary/Itinerary"; 
+import { fetchDestinations } from "../Service/apiService"; 
 
 const HomePage = () => {
   const [destinations, setDestinations] = useState([]);
@@ -79,8 +79,7 @@ const HomePage = () => {
 
   return (
     <div>
-      {/* Navigation Menu */}
-      {/* Navigation Menu */}
+      
 <nav className="bg-gray-800 p-4">
   <div className="container mx-auto flex justify-between">
     <a
@@ -148,7 +147,7 @@ const HomePage = () => {
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
           Explore Destinations
         </h1>
-        {/* SearchBar moved here */}
+        {/* SearchBar */}
         <div className="mb-6 text-center">
           <SearchBar onSearch={handleSearch} />
         </div>
