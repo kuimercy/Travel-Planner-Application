@@ -48,5 +48,5 @@ const fetchDestinations = async (query) => {
   }
 };
 
-// Export the service functions
+
 export { getAccessToken, fetchDestinations };
