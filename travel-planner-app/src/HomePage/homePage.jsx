@@ -3,7 +3,7 @@
 import  { useState } from "react";
 import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar/searchBar"; 
-import Itinerary from "../Itinerary/Itinerary"; 
+import Itinerary from "../Itinerary/itinerary"; 
 import { fetchDestinations } from "../Service/apiService"; 
 
 const HomePage = () => {
