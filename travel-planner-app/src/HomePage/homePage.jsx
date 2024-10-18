@@ -2,7 +2,7 @@
 
 import  { useState } from "react";
 import { Link } from "react-router-dom";
-import SearchBar from "../SearchBar/SearchBar"; 
+import SearchBar from "../SearchBar/searchBar"; 
 import Itinerary from "../Itinerary/Itinerary"; 
 import { fetchDestinations } from "../Service/apiService"; 
 
