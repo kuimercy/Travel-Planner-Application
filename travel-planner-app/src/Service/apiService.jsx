@@ -10,8 +10,8 @@ const getAccessToken = async () => {
       AMADEUS_AUTH_URL,
       new URLSearchParams({
         grant_type: "client_credentials",
-        client_id: import.meta.env.VITE_AMADEUS_API_KEY,
-        client_secret: import.meta.env.VITE_AMADEUS_API_SECRET,
+        client_id: import.meta.env.VITE_API_KEY,
+        client_secret: import.meta.env.VITE_API_SECRET,
       }),
       {
         headers: {
